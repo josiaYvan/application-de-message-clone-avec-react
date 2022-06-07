@@ -1,0 +1,44 @@
+.card {
+    height: 550px;
+    width: auto;
+}
+.card-content{
+    overflow: scroll;
+    height: 400px;
+}
+.card-content::-webkit-scrollbar-track {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.card-content::-webkit-scrollbar-button {
+    cursor: pointer;
+}
+.right{
+    position: relative;
+    top: -50px;
+}
+.pop{
+    float: right;
+    word-wrap: break-word;
+    padding: 5px  10px;
+    background-color: rgba(134, 129, 129, 0.795);
+    width: fit-content;
+    border-radius: 15px;
+    color: white;
+    margin-bottom:5px;
+    max-width: 50%;
+    box-shadow: 2px 2px 5px rgb(129, 129, 129);
+    clear: both;
+}
+.replay{
+    clear: both;
+    padding: 5px  10px;
+    background-color: rgba(0, 38, 209, 0.795);
+    width: fit-content;
+    border-radius: 15px;
+    color: white;
+    margin-bottom:5px;
+    max-width: 50%;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 5px rgb(129, 129, 129);
+
+}
